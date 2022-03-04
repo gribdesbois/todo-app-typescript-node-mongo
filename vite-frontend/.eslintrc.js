@@ -31,7 +31,7 @@ module.exports = {
       { extensions: ['.js', '.jsx', '.ts', 'tsx'] },
     ],
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     /* 'eslint:recommended', */
